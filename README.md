@@ -1,40 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+📊 SkillSet UI
 
-## Getting Started
+A modern, responsive developer performance dashboard built with Next.js, ShadCN/UI, Chart.js, and Tailwind CSS. This app visualizes developer metrics like rank, percentile, and score, and includes interactive charts, stat cards, and a sidebar navigation system.
 
-First, run the development server:
+=====================================================
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+📦 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✨ Modern UI using ShadCN with Tailwind CSS and Lucide Icons
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+📈 GraphComponent: Line graph showing percentile trends
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+🥧 PieChartComponent: Visual breakdown of score correctness
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+📊 QuickStatistics: Summary card with Rank, Percentile, and Score (with icons)
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔄 UpdaterComponent: Dynamically update user performance data
 
-## Learn More
+🧭 Responsive Sidebar with route-based navigation (Dashboard, Skillset, Settings)
 
-To learn more about Next.js, take a look at the following resources:
+📱 Fully responsive layout with mobile-friendly sidebar toggle
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+🧠 Modular & reusable components
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+🔤 Google Fonts (Poppins) for elegant typography
 
-## Deploy on Vercel
+==============================================
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🛠️ Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+Frontend: Next.js, React, Tailwind CSS
+
+UI Components: ShadCN UI, Lucide Icons
+
+Charts: Chart.js (via react-chartjs-2)
+
+Font: Google Fonts (Poppins)
+
+======================================
